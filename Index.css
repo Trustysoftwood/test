@@ -1,76 +1,122 @@
-:root>body{
-width: 100%;
-margin: auto;
-min-height: 100vh;
-text-align: center;
-background-color: rgb(5, 4, 6);
+:root {
+ background-color: #ffff;
+ text-decoration-color:#21243d;
+ overflow-x: none;
+ width: 100%;
 }
 
-.heading-style{
-background-color: rgb(128, 128, 128);
-color: rgb(18, 17, 17);
-padding: 10px;
-font-size: 24px;
-font-weight: bold;
-color: rgb(0, 0, 0);
-
+body {
+ font-family: "Heebo";
+ font-style: normal;
+ width: 100%;
+ margin: auto;
+ min-height: 100vh;
+ max-width: 1500px;
+ text-align: center;
+ background-color:#ffff
 }
 
-.footer-style{
-position:fixed;
-width: 100%;
-bottom: 0;
+.heading-style {
+ display: flex;
+ padding-top: 25px;
+ margin-right: 20px;
+ padding: 20px;
+ font-size: 24px;
+ height: 80px;
+ font-weight: bold;
+ justify-content: flex-end;
+ gap: 33px;
+ background-color: #ffff
+ 
+}
+
+.footer-style {
+ position:fixed 
+ Width: 100%;
+ height: 182px;
+ padding-top: 90px;
+ justify-content: center;
 }
 
 .main{
-display: flex;
-flex-direction: column;
-justify-content:center ;
-align-items: center;
-gap: 20px;
-margin: 40px 0;
+ display: flex;
+ flex-direction: column;
+ justify-content:center ;
+ align-items: center;
+ gap: 40px;
+ margin: 40px 0;
 
 }
 
 .section-1{
-
-width: 50%;
-border: 2px solid rgb(128, 128, 128);
-border-radius: 120px;
-height: 25vh;
-background-color: teal;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    width: 100%;
 }
+
+.section1-container1{
+display: flex;
+flex-direction: column;
+text-align: left;
+width: 506px;
+}
+
+.section1-image{
+    border-radius: 20px;
+}
+
+
+.section1-button{
+background: #ff6464;
+border-radius: 2px;
+width: 280px;
+height: 80px;
+color: #ffff;
+font-weight: 500;
+font-size: 20px;
+cursor: pointer;
+outline: none;
+border: none;
+}
+
+
 
 .section-2{
 display: flex;
 justify-content: center;
 align-items: center;
+border: #edf7fa;
 gap: 40px;
 width: 100%;
+margin-bottom: 40px;
+padding-top: 50px;
 }
 
 .section-items{
-
-width: 30%;
-height: 25vh;
-border: 2px Solid gray;
-background-color: dodgerblue;
-
+    width: 30%;
+    height: 25vh;
+    border: 2px Solid salmon;
+    background-color: dodgerblue;
 }
 
-.section-3{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 40px;
-
+.section-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
 
 .grid-items{
-align-items: center;
-justify-content: center;
-min-width: 250px;
-max-width: max-content;
-background-color: green;
-height: 25vh;
+    align-items: center;
+    justify-content: center;
+    min-width: 380px;
+    max-width: max-content;
+    background-color: green;
+    height: 30vh;
+
+}
+
+.seprator{
+    border: 1px solid #e0e0e0;
 
 }
